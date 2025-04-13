@@ -35,9 +35,10 @@ namespace Lab_8
             }
             if (endelem) _output += currentelem;
         }
-        public int ToString()
+        public string ToString()
         {
-            return _output;
+            string result = $"{_output}";
+            return result;
         }
     }
 }
