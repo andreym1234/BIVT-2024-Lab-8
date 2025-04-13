@@ -36,7 +36,7 @@ namespace Lab_8
             }
             _output = _output.Trim();
         }
-        public string ToString()
+        public override string ToString()
         {
             return _output;
         }

@@ -35,7 +35,7 @@ namespace Lab_8
             }
             if (endelem) _output += currentelem;
         }
-        public string ToString()
+        public override string ToString()
         {
             string result = $"{_output}";
             return result;

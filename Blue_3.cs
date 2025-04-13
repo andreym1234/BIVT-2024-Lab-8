@@ -70,7 +70,7 @@ namespace Lab_8
                 _output[i] = temp[i];
             }
         }
-        public string ToString()
+        public override string ToString()
         {
             string result = "";
             for (int i = 0; i < _output.Length; i++)

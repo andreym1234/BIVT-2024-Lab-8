@@ -55,7 +55,7 @@ namespace Lab_8
                 _output[i] = stroka[i];
             }
         }
-        public string ToString()
+        public override string ToString()
         {
             return string.Join("\n", _output);
         }
